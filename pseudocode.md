@@ -29,7 +29,7 @@ keep track of chromosome #
 
 open input sam file, open output sam file
     for line in input file
-        if line is header (@)
+        if line is header
             .split line
             pull out qname, flag, rname, pos, cigar, umi(after final : in qname)
             if umi not in umi set skip the read
@@ -50,6 +50,6 @@ open input sam file, open output sam file
             seen = combine UMI, strand, and actual start pos into one label
             if i have seen this label then it is a dupe and needs to be skipped
             else remember the dupe and read to the output file
-            
+
 OUTPUT SHOULD: report how many reads were kept, how many were dupes, and how many had bad UMIs
 ```
