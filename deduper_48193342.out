@@ -1,0 +1,29 @@
+The number of header lines is: 65
+        The number of unique reads: 13719048
+        The number of PCR dupes seen: 4467362
+        The number of unmapped reads: 0
+        The number of reads with bad umis: 0
+
+	Command being timed: "python /projects/bgmp/kymc/bioinfo/Bi624/Carroll_deduper.py -f /projects/bgmp/kymc/bioinfo/Bi624/C1_SE_uniqAlign.sorted.sam -o /projects/bgmp/kymc/bioinfo/Bi624/C1_SE_uniqReads.sorted.sam -u /projects/bgmp/kymc/bioinfo/Bi624/STL96.txt"
+	User time (seconds): 58.74
+	System time (seconds): 5.08
+	Percent of CPU this job got: 98%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:04.85
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3171292
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 664783
+	Voluntary context switches: 969
+	Involuntary context switches: 692
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
